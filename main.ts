@@ -42,7 +42,7 @@ const CANDIDATES: string[] = [
   "I saved your work. Somewhere.",
 ];
 
-const ENTRY: string = CANDIDATES[1];
+const ENTRY: string = "Just saw this. (Seen Tuesday)";
 
 function wordCount(text: string): number {
   return text.trim().split(/\s+/).filter(Boolean).length;
